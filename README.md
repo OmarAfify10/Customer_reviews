@@ -1,4 +1,4 @@
-# Review-Classification
+# Customer_reviews
 
 This project focuses on classifying reviews into 1-star or 5-star ratings using a machine learning pipeline that integrates three essential tools. The pipeline begins with converting textual reviews into a numerical representation using CountVectorizer, followed by transforming these counts into TF-IDF scores using TfidfTransformer. Finally, the MultinomialNB classifier is applied to predict whether each review falls into the 1-star or 5-star category, aiming to automate sentiment analysis effectively.
 
